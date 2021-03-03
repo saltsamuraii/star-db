@@ -6,7 +6,7 @@ import RandomPlanet from '../random-planet';
 
 import './app.css';
 import ErrorIndicator from "../error-indicator";
-import PeoplePage from "../people-page/people-page";
+import PeoplePage from "../people-page";
 
 export default class App extends Component {
 
