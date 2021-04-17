@@ -1,9 +1,9 @@
 export default class SwapiService {
 
-    _apiBase = 'https://swapi.dev/api';
+    //_apiBase = 'https://swapi.dev/api';
     _imageBase = 'https://starwars-visualguide.com/assets/img/';
 
-    //_apiBase = 'https://swapi.py4e.com/api/';
+    _apiBase = 'https://swapi.py4e.com/api/';
 
      getResource = async (url) => {
         const res = await fetch(`${this._apiBase}${url}`);
